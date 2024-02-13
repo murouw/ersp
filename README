@@ -1,0 +1,13 @@
+Getting Started:
+
+Get an API key from https://platform.openai.com/api-keys and set default organization to UCSD-etf
+
+Install this dependency:
+(macOS)
+python3 -m pip install python-dotenv
+(windows)
+py -m pip install python-dotenv
+
+Create a .env file in the top level of the repository. 
+.env file contents (replace YOUR-API-KEY-HERE with your api key):
+API_KEY="YOUR-API-KEY-HERE"
